@@ -1,7 +1,7 @@
 [book]
 title = "Rust By Example"
 description = "Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries."
-author = "The Rust Community"
+authors = ["The Rust Community"]
 
 [output.html.playpen]
 editable = true
@@ -13,6 +13,7 @@ enable = true
 
 [output.html]
 git-repository-url = "https://github.com/rust-lang/rust-by-example"
+edit-url-template = "https://github.com/rust-lang/rust-by-example/edit/master/{path}"
 hash-files = true
 additional-css = [
   "theme/css/language-picker.css",
